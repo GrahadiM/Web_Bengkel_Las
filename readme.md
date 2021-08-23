@@ -1,12 +1,7 @@
 ## INSTALASI LARAVEL FROM GITHUB
 
-<<<<<<< HEAD
-- <code>git clone https://github.com/GrahadiM/Laravel8_Covid-19.git</code>(from url github)
-- <code>cd Laravel8_Covid-19</code>(your name project)
-=======
-- <code>git clone https://github.com/GrahadiM/Web_Irsyad.git</code>(from url github)
-- <code>cd Web_Irsyad</code>(your name project)
->>>>>>> 7c88d98b09807a718929f48af075e1b80ed3efac
+- <code>git clone https://github.com/GrahadiM/Web_Bengkel_Las.git</code>(from url github)
+- <code>cd Web_Bengkel_Las</code>(your name project)
 - <code>composer install</code> or <code>composer update</code>
 - <code>cp .env.example .env</code> configuration your file .env in your project Laravel
 - <code>php artisan key:generate</code>
