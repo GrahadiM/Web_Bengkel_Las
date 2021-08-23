@@ -45,14 +45,14 @@
                             Order
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#katalog">Katalog</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/#katalog') }}">Katalog</a></li>
                             @auth
-                                <li><a class="dropdown-item" href="#datapesanan">Berita Pesanan</a></li>
+                                <li><a class="dropdown-item" href="{{ url('/#datapesanan') }}">Berita Pesanan</a></li>
                             @endauth
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#datacontact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About </a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url('/#datacontact') }}">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url('/#about') }}">About </a></li>
                     @auth
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"

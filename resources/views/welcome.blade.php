@@ -245,6 +245,7 @@
                             <span class="text-muted">0812-9776-130</span>
                         </a>
                     </h2>
+                    <h3>Email : <a href="mailto:aneka.karya.las@gmail.com" target="_blank" rel="noopener noreferrer" style="color: black;text-decoration: none;">aneka.karya.las@gmail.com</a></h3>
                 </div>
             </div>
         </div>
@@ -276,7 +277,9 @@
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-12 text-lg-start d-flex justify-content-center mb-5">Copyright &copy; Bengkel Las 2021</div>
+                <div class="col-lg-12 text-lg-start d-flex justify-content-center mb-5">
+                    Copyright &copy; Bengkel Las 2021. Created By :&ensp;<a href="mailto:aneka.karya.las@gmail.com" target="_blank" rel="noopener noreferrer" style="color: black;text-decoration: none;">{{ __('Aneka Karya Las') }}</a>
+                </div>
             </div>
         </div>
     </footer>
